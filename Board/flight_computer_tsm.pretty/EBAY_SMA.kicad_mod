@@ -1,0 +1,13 @@
+(module davenport_kicad_footprints:EBAY_SMA (layer F.Cu) (tedit 5A1FDE65)
+  (fp_text reference J3 (at 4.0005 0.0635 90) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SMA_EDGE (at -3.81 3.81) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 1 4.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -2.35 0) (size 1.27 4.2) (layers B.Cu B.Paste B.Mask))
+  (pad 2 smd rect (at 2.35 0) (size 1.27 4.2) (layers B.Cu B.Paste B.Mask))
+  (pad 2 smd rect (at -2.35 0) (size 1.27 4.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.35 0) (size 1.27 4.2) (layers F.Cu F.Paste F.Mask))
+)
